@@ -5,3 +5,4 @@ This is a test project
 Do some bugfix
 
 some feature added
+bug fix
