@@ -1,8 +1,2 @@
-# testproj
-This is a test project
-
-## bugfix
-Do some bugfix
-
-some feature added
-bug fix
+# Into
+This repo used to backup my nvim config
