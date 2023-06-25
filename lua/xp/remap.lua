@@ -26,8 +26,8 @@ vim.keymap.set("n", "<leader>wl", "<cmd>wincmd l<CR>zz")
 vim.keymap.set("n", "<leader>wj", "<cmd>wincmd j<CR>zz")
 vim.keymap.set("n", "<leader>wk", "<cmd>wincmd k<CR>zz")
 
-vim.keymap.set("n", "<leader>bk", "<cmd>bnext<CR>zz")
-vim.keymap.set("n", "<leader>bj", "<cmd>bprev<CR>zz")
+vim.keymap.set("n", "<TAB>", "<cmd>bnext<CR>zz")
+vim.keymap.set("n", "<S-TAB>", "<cmd>bprev<CR>zz")
 
 vim.keymap.set("n", "<M-l>", "gt")
 vim.keymap.set("n", "<M-h>", "gT")

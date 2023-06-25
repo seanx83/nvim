@@ -46,6 +46,10 @@ return require('packer').startup(function(use)
 	  }
     }
 
+    use ('onsails/lspkind-nvim')
+    -- required by nvm_cmp
+    use('saadparwaiz1/cmp_luasnip')
+
     use('nvim-tree/nvim-tree.lua')
     use('nvim-tree/nvim-web-devicons')
     use({
@@ -76,5 +80,11 @@ return require('packer').startup(function(use)
       'nvim-lualine/lualine.nvim',
       requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
+    use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
+
+    use ('windwp/nvim-ts-autotag')
+    use ('windwp/nvim-autopairs')
+
+    use ('lewis6991/gitsigns.nvim')
 
 end)
